@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+table, tr, td {  
+    border-collapse: collapse;
+}
+h1{
+    color: red;
+    border: 1px solid wheat;
+    display: inline;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+}
+table {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(6, 13, 228);
+    text-align: center;
+    cursor: pointer;
+}
+div {
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#playerTurn {
+    color: rgb(16, 4, 246);
+    background-color: rgb(234, 13, 212);
+}
+
+#result {
+    color: rgb(238, 9, 32);
+    background-color: #f2bfbf;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #168ed4;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
